@@ -1,0 +1,210 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Styles */
+header {
+    background-color: #008CBA; /* Bali-inspired blue */
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Golden color */
+}
+
+/* Main Section */
+main {
+    padding: 30px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.intro img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.top-activities {
+    margin-top: 40px;
+}
+
+.top-activities h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.top-activities ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.top-activities ul li {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #555;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Contact Section */
+.contact {
+    margin-top: 40px;
+}
+
+.contact h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #006F8E;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .intro img {
+        max-width: 100%;
+    }
+
+    .about img {
+        max-width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+}
